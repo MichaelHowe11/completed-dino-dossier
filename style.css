@@ -15,17 +15,16 @@ h1,h2 {
 
 .images {
     display: flex;
-    width:100%;
+    min-width: 800px
 }
 
 img {
     background-color: black;
-    flex:3.33%;
+    min-width:0%;
+    width: 100%;
 }
 
-.images img {
-    width:100%;
-}
+
 
 .content {
     flex-basis:33.33%;
