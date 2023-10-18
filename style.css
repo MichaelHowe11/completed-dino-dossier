@@ -1,0 +1,48 @@
+.flex-container {
+    display:flex;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    background-color: bisque;
+}
+
+h1,h2 {
+    text-align: center;
+    flex-basis:100%;
+
+}
+
+.head1{
+    text-align: left;
+}
+
+p {
+    background-color: #f8d3a9;
+}
+
+img {
+    display:flex;
+    background-color: black;
+    width:100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.content {
+    flex-basis:50%;
+}
+
+.image {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.left {
+    background-color: #f8d3a9;
+    text-align: left;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 60%;
+flex-basis:90%;
+min-width: 80%;
+}
