@@ -1,8 +1,10 @@
 .flex-container {
     display:flex;
+    justify-content: center;
     flex-wrap:wrap;
     align-items: flex-start;
     background-color: bisque;
+    flex-direction: row;
 }
 
 h1,h2 {
@@ -11,38 +13,26 @@ h1,h2 {
 
 }
 
-.head1{
-    text-align: left;
-}
-
-p {
-    background-color: #f8d3a9;
+.images {
+    display: flex;
+    width:100%;
 }
 
 img {
-    display:flex;
     background-color: black;
+    flex:3.33%;
+}
+
+.images img {
     width:100%;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right:auto;
 }
 
 .content {
-    flex-basis:50%;
+    flex-basis:33.33%;
 }
 
-.image {
-    flex-basis: 50%;
-    text-align: center;
-}
-
-.left {
-    background-color: #f8d3a9;
-    text-align: left;
-    margin-left:auto;
-    margin-right: auto;
-    max-width: 60%;
-flex-basis:90%;
-min-width: 80%;
+@media only screen and (max-width:1280px) {
+    body {
+        color:red;
+    }
 }
